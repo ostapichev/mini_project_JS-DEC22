@@ -1,0 +1,49 @@
+.content p:nth-child(1), .content p:nth-child(2) {
+    font: 1.1em "Palatino", serif;
+}
+
+.content {
+    background-color: cornsilk;
+    height: 30vh;
+    width: 50%;
+}
+
+.content p:nth-child(3) {
+    font: 1.0em "Arial", sans-serif;
+}
+
+.content p:nth-child(4) {
+    font: italic 1.2em "Fira Sans", serif;
+    text-align: match-parent;
+}
+
+.comments {
+    justify-content: space-around;
+}
+
+.comments div {
+    background-color: aliceblue;
+    height: 25vh;
+    width: 23%;
+}
+
+.comments div p:nth-child(5) {
+    font: italic 0.8em "Fira Sans", serif;
+    margin: 5px;
+}
+
+.comments div p:nth-child(1), .comments p:nth-child(2), .comments p:nth-child(3) {
+    font: 0.8em "Palatino", serif;
+}
+
+.comments div p:nth-child(4) {
+    font: 0.6em "Arial", sans-serif;
+}
+
+form {
+    width: 30%;
+}
+
+p {
+    padding-left: 10px;
+}

@@ -1,0 +1,45 @@
+.post p, .about-post, .submit {
+    font: 1.0em "Palatino", serif;
+}
+
+.data {
+    background-color: #E9E7D4;
+    height: 50vh;
+    width: 60%;
+}
+
+.data p {
+    font: 0.8em "Courier New", monospace;
+    padding: 5px;
+
+}
+
+.post p {
+    padding: 10px;
+}
+
+.posts {
+    justify-content: space-around;
+}
+
+.post {
+    background-color: #E3EBE3;
+    height: 130px;
+    justify-content: space-between;
+    width: 17%;
+}
+
+.about-post {
+    background-color: #D5F3D5;
+}
+
+.about-post:hover {
+    background-color: #92F7B8;
+}
+
+.submit {
+    background-color: #D5F3D5;
+    height: 4vh;
+    margin: 5px;
+    width: 15%;
+}

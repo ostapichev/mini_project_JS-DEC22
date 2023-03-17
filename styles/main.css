@@ -1,0 +1,96 @@
+body {
+    background-color: #DEDEDE;
+    padding: 0 calc(20px - (100vw - 100%)) 0 0;
+}
+
+#main-block, #block, #container, #post-comments, .content, .comments,
+.comments div, .user, .posts, .post  {
+    display: flex;
+}
+
+#main-block, .user, #post-comments, #block, .post {
+    align-items: center;
+}
+
+#main-block, .user, #post-comments, .content, .comments div, #block, .post {
+    flex-direction: column;
+}
+
+#container, .comments, .posts {
+    flex-wrap: wrap;
+}
+
+#container, #block, form, .posts {
+    width: 100%;
+}
+
+.user, .content, .comments div, .data, .post {
+    border: 1px solid black;
+}
+
+.data p, .content p:nth-child(4), .content p:nth-child(4) {
+    border: 1px solid gray;
+}
+
+#container, .user, .content, .comments div {
+    justify-content: space-evenly;
+}
+
+.header, form, .post {
+    text-align: center;
+}
+
+#container {
+    height: 100%;
+}
+
+.header {
+    font: 1.5em "Palatino", serif;
+    height: 30%;
+    padding: 20px;
+}
+
+.user, form, .post, .comments div, .data p, .content p:nth-child(4) {
+    margin: 10px;
+}
+
+.comments div, .content p:nth-child(4), .comments div p:nth-child(5),
+.content, .data {
+    border-radius: 10px;
+}
+
+.user, .button, .data p, .post, .about-post, .submit {
+    border-radius: 5px;
+}
+
+.content, .data, .post, .comments div {
+    overflow: hidden;
+}
+
+.user {
+    background-color: #E9E7D4;
+    height: 130px;
+    width: 40%;
+}
+
+.header, p {
+    margin: 0;
+}
+
+form {
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color: #D5F3D5;
+    font: 1.1em "Palatino", serif;
+    width: 90%;
+}
+
+.button:hover, .submit:hover {
+    background-color: #92F7B8;
+}
+
+.hide-posts, br {
+    display: none;
+}
