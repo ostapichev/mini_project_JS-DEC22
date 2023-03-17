@@ -1,3 +1,7 @@
+@import "normalize.css";
+@import "user-details.css";
+@import "post-details.css";
+
 body {
     background-color: #DEDEDE;
     padding: 0 calc(20px - (100vw - 100%)) 0 0;
