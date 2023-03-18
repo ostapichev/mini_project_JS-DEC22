@@ -27,7 +27,7 @@ window.addEventListener('load', function (eo) {
                 );
 
                 userBlock.append(userid, username, form);
-                container.append(userBlock);
+                container.appendChild(userBlock);
             }
         })
 })

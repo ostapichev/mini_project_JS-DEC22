@@ -6,7 +6,7 @@ const divPost = document.getElementsByClassName('content')[0];
 window.addEventListener('load', function (eo) {
     eo.preventDefault();
     for (let data in post) {
-        let p = document.createElement('p');
+        const p = document.createElement('p');
         p.innerText = `${data}: ${post[data]}`;
         divPost.appendChild(p);
     }
@@ -25,9 +25,9 @@ window.addEventListener('load', function (eo) {
         .then(resp => resp.json())
         .then(comments => {
             for (let comment of comments) {
-                let divComment = document.createElement('div');
+                const divComment = document.createElement('div');
                 for (let data in comment) {
-                    let p = document.createElement('p');
+                    const p = document.createElement('p');
                     p.innerText = `${data}: ${comment[data]}`;
                     divComment.appendChild(p);
                 }
