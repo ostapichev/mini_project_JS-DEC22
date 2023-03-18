@@ -31,7 +31,7 @@ body {
     border: 1px solid black;
 }
 
-.data p, .content p:nth-child(4), .content p:nth-child(4) {
+.data p, .content p:nth-child(4), .comments div p:nth-child(5) {
     border: 1px solid gray;
 }
 
