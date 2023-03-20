@@ -3,15 +3,14 @@ const user = JSON.parse(url.searchParams.get('data'));
 const divData = document.getElementsByClassName('data')[0];
 const titlePosts = document.getElementsByClassName('hide-posts')[0];
 
-const handler = (show, hide) => {
+const showHidePostHandler = (showPost, hidePost) => {
     titlePosts.classList.toggle('hide-posts');
     titlePosts.classList.toggle('posts');
-    form.showPost.disabled = show;
-    form.hidePost.disabled = hide;
+    form.showPost.disabled = showPost;
+    form.hidePost.disabled = hidePost;
 }
 
-window.addEventListener('load', function (eo) {
-    eo.preventDefault();
+window.addEventListener('load', function () {
     titlePosts.classList.toggle('posts');
 
     for (let data in user) {
@@ -52,9 +51,9 @@ form.return.addEventListener('click', function () {
 })
 
 form.hidePost.addEventListener('click', function () {
-    handler(false, true);
+    showHidePostHandler(false, true);
 })
 
 form.showPost.addEventListener('click', function () {
-    handler(true, false);
+    showHidePostHandler(true, false);
 })
