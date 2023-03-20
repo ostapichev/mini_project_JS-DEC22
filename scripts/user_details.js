@@ -4,7 +4,6 @@ const divData = document.getElementsByClassName('data')[0];
 const titlePosts = document.getElementsByClassName('hide-posts')[0];
 const returnToUsers = document.getElementById('returnToUsers');
 const showPost = document.getElementById('show-post');
-const hidePost = document.getElementById('hide-post');
 
 window.addEventListener('load', function () {
     titlePosts.classList.toggle('posts');
