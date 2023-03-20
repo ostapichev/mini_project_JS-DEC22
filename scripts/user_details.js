@@ -41,10 +41,6 @@ window.addEventListener('load', function () {
         });
 })
 
-returnToUsers.addEventListener('click', function () {
-    returnToUsers.setAttribute('href', 'index.html');
-})
-
 showPost.addEventListener('click', function () {
     titlePosts.classList.toggle('hide-posts');
     titlePosts.classList.toggle('posts');

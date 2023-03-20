@@ -49,3 +49,8 @@
     margin: 5px;
     width: 20%;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
