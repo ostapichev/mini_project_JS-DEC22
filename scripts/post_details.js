@@ -3,8 +3,7 @@ const post = JSON.parse(url.searchParams.get('data'));
 const divComments = document.getElementsByClassName('comments')[0];
 const divPost = document.getElementsByClassName('content')[0];
 
-window.addEventListener('load', function (eo) {
-    eo.preventDefault();
+window.addEventListener('load', function () {
     for (let data in post) {
         const p = document.createElement('p');
         p.innerText = `${data}: ${post[data]}`;
