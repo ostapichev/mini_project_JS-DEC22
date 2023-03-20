@@ -97,3 +97,7 @@ form {
 .hide-posts, br {
     display: none;
 }
+
+a {
+    text-decoration: none;
+}

@@ -37,9 +37,15 @@
     background-color: #92F7B8;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .submit {
     background-color: #D5F3D5;
     height: 4vh;
     margin: 5px;
-    width: 15%;
+    width: 20%;
 }

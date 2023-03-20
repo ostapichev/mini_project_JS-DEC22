@@ -13,11 +13,10 @@
         <div id="block">
             <h1 class="header">About user</h1>
             <div class="data"></div>
-            <form name="form" method="post">
-                <button class="submit" type="submit" name="return">Return to users</button>
-                <button class="submit" type="submit" name="showPost">Title posts of current user</button>
-                <button class="submit" name="hidePost" disabled>Hide title posts</button>
-            </form>
+            <div class="buttons">
+                <button class="submit"><a id="returnToUsers">Return to users</a></button>
+                <button id="show-post" class="submit"><a>Show | Hide - Title posts</a></button>
+            </div>
         </div>
         <div class="hide-posts posts"></div>
     </div>
